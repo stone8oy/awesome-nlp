@@ -13,6 +13,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
  - [Tutorials and Courses](#tutorials-and-courses)
    - [videos](#videos)
+ - [Deep Learning for NLP](#deep-learning-for-nlp)
  - [Packages](#packages)
    - [Implemendations](#implementations)
    - [Libraries](#libraries)
@@ -44,23 +45,27 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 * Tensor Flow Tutorial on [Seq2Seq](https://www.tensorflow.org/tutorials/seq2seq/index.html) Models
 * Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
+* [Michael Collins](http://www.cs.columbia.edu/~mcollins/) - one of the best NLP teachers. Check out the material on the courses he is teaching.
 
 ### videos
 
-* [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
-* [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
+* [Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
-* [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/) by Richard Socher
-* [Natural Language Processing](https://class.coursera.org/nlangp-001) - course on Coursera that was only done in 2013 but the videos are still up. Also Mike Collins is a great professor and his notes and lectures are very good. 
+* [Deep Learning for Natural Language Processing (2015 classes)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
+* [Deep Learning for Natural Language Processing (2016 classes)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Note that there are some lectures missing (lecture 9, and lectures 12 onwards). 
+* [Natural Language Processing](https://www.coursera.org/learn/nlangp) - course on Coursera that was only done in 2013. The videos are not available at the moment. Also Mike Collins is a great professor and his notes and lectures are very good. 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides. 
 * [Natural Language Processing SFU](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM. 
+* [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
+* [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation.
 
 ## Deep Learning for NLP 
-[Stanford Natural Language Processing](https://class.coursera.org/nlp/lecture/preview)  
-Intro NLP course with videos. This has no deep learning. But it is a good primer for traditional nlp.  
 
 [Stanford CS 224D: Deep Learning for NLP class](http://cs224d.stanford.edu/syllabus.html)  
-[Richard Socher](https://scholar.google.com/citations?user=FaOcyfMAAAAJ&hl=en). (2015)  Class with videos, and slides.
+Class by [Richard Socher](https://scholar.google.com/citations?user=FaOcyfMAAAAJ&hl=en). 2016 content was updated to make use of Tensorflow. Lecture slides and reading materials for 2016 class [here](http://cs224d.stanford.edu/syllabus.html). Videos for 2016 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam). Note that there are some lecture videos missing for 2016 (lecture 9, and lectures 12 onwards). All videos for 2015 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q)
+
+[Udacity Deep Learning](https://classroom.udacity.com/courses/ud730)
+Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks. This section covers how to implement Word2Vec, RNN's and LSTMs.
 
 [A Primer on Neural Network Models for Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)  
 Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.  
@@ -129,6 +134,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [OpenRegex](https://github.com/knowitall/openregex) An efficient and flexible token-based regular expression language and engine.  
   * [CogcompNLP](https://github.com/IllinoisCogComp/illinois-cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group. 
   
+* <a id="scala">**Scala** - Scala NLP Libraries</a>
+  * [Saul](https://github.com/IllinoisCogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc. 
+
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
   * [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
@@ -239,8 +247,8 @@ Graves et al. 2014.
 Joulin, Mikolov 2015. [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)  
 
 ### General Natural Language Processing
-* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LTSM representation
-* [LTSM over tree structures](http://arxiv.org/abs/1503.04881)
+* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LSTM representation
+* [LSTM over tree structures](http://arxiv.org/abs/1503.04881)
 * [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
 * [Teaching Machines to Read and Comprehend](http://arxiv.org/abs/1506.03340) - DeepMind paper
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
